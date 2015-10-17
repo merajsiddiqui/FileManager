@@ -1,0 +1,361 @@
+<!-- Video -->
+<div id="home-intro">
+    <div class="home-intro-container">
+        <div class="introcaption">
+            <h2>Managed IT solutions for <span id="js-rotating">Businesses, Developers, Enterprises</span></h2>
+            <h4>Ranked under 1 Lakh in Alexa</h4>
+        </div>
+        <video autoplay loop muted poster="{echo CDN}images/video-poster.jpg" class="hidden-xs">
+            <source src="{echo CDN}video/video.mp4" type="video/mp4">
+            <source src="{echo CDN}video/video.webm" type="video/webm">
+            <source src="{echo CDN}video/video.ogv" type="video/ogg">
+        </video>
+    </div>
+</div>
+<!-- End of Video -->
+
+<!-- CALLOUT TEXT / BUTTON -->
+<div class="calltoaction wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="200ms">
+    <div class="row">
+        <div class="col-sm-12">
+            <h2 class="text-center">UP TO 3x FASTER THAN YOUR COMPETITION<span>WITH OUR SWIFTSPEED MODULE</span></h2>
+            <div class="text-center"><a class="mtr-btn button-fab ripple" href="/hosting/quote">GET QUOTE</a></div>
+        </div>
+    </div>
+</div>
+<!-- END OF CALLOUT TEXT / BUTTON -->
+<!-- FEATURES -->
+<div class="features-tabs">
+    <div class="row">
+        <div class="col-sm-12">
+            <!-- TABS -->
+            <div class="tabbable tabs-top-horizontal">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#managed" data-toggle="tab"><i class="fa fa-life-ring royalblue"></i>Fully Managed</a></li>
+                    <li><a href="#security" data-toggle="tab"><i class="fa fa-shield green"></i>Security</a></li>
+                    <li><a href="#backups" data-toggle="tab"><i class="fa fa-archive red"></i>Backups</a></li>
+                    <li><a href="#emails" data-toggle="tab"><i class="fa fa-envelope-square lightblue"></i>E-mails</a></li>
+                    <li><a href="#monitoring" data-toggle="tab"><i class="fa fa-th-list orange"></i>Monitoring</a></li>
+                    <li><a href="#cdn" data-toggle="tab"><i class="fa fa-maxcdn darkgray"></i>CDN</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane fade in active" id="managed">
+                        <h4>LETTING US MANAGE YOUR SERVER</h4>
+                        <p class="subtitle">Keep imroving yoyr business, Why to go in the hasstle of technical issues,Let us manage your servers.</p>
+                        <div class="row spacing-25">
+                            <div class="col-md-11 col-sm-12 center-block">
+                                <div class="block-grid-sm-3 block-grid-xs-1 fully-managed">
+                                    <div class="block-grid-item">
+                                        <img src="{echo CDN}images/icon1.png" alt="" />
+                                        <h5>OS UPDATES</h5>
+                                        <p>We keep the most updated server OS to make your application perform as better it coud prform and grow your business as fastest as possible. </p>
+                                    </div>
+                                    <div class="block-grid-item">
+                                        <img src="{echo CDN}images/icon2.png" alt="" />
+                                        <h5>24/7/365 SUPPORT</h5>
+                                        <p>We do not have a holidays. We work 24*7 to keep your businesss up and running. While you are with your family we are taking care of this.</p>
+                                    </div>
+                                    <div class="block-grid-item">
+                                        <img src="{echo CDN}images/icon3.png" alt="" />
+                                        <h5>99.9% UPTIME SLA</h5>
+                                        <p>Our Engineers work hard to keep you uptime without ever getting your site down. We hate to see a website / application down. </p>
+                                    </div>
+                                    <div class="block-grid-item">
+                                        <img src="{echo CDN}images/icon4.png" alt="" />
+                                        <h5>FAILOVER SYSTEMS</h5>
+                                        <p>We have extra servers to keep you up if a server fails. Our servers automatically take care of this and remaing our engineers.</p>
+                                    </div>
+                                    <div class="block-grid-item">
+                                        <img src="{echo CDN}images/icon5.png" alt="" />
+                                        <h5>REMOTE BACKUPS</h5>
+                                        <p>Never fear to loose your data. We have multiple backups with remote backup too.
+                                        We take care of data like no one do. </p>
+                                    </div>
+                                    <div class="block-grid-item">
+                                        <img src="{echo CDN}images/icon6.png" alt="" />
+                                        <h5>MANAGED SECURITY</h5>
+                                        <p>We have the best security experts to protect you from hackers, malicious compettitors and other unauthorized access.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="security">
+                        <h4>SECURE WEB HOSTING SOLUTIONS</h4>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="block-grid-sm-3 block-grid-xs-1 security">
+                                    <div class="block-grid-item">
+                                        <div class="security-tab-icon">
+                                            <i class="fa fa-expeditedssl"></i>
+                                        </div>
+                                        <div class="security-tab-feature">
+                                            <h5>PREVENTION OF ATTACKS</h5>
+                                            <p>We have the best intrusion detection system to prevnt from attacks. we have implemented the best security methodologies.</p>
+                                        </div>
+                                    </div>
+                                    <div class="block-grid-item">
+                                        <div class="security-tab-icon">
+                                            <i class="fa fa-file-text"></i>
+                                        </div>
+                                        <div class="security-tab-feature">
+                                            <h5>VULNERABILITY REPORTS</h5>
+                                            <p>We never ignore minor issues. If you find any bug you can directly report us, we will solve it in the fastest time.</p>
+                                        </div>
+                                    </div>
+                                    <div class="block-grid-item">
+                                        <div class="security-tab-icon">
+                                            <i class="fa fa-key"></i>
+                                        </div>
+                                        <div class="security-tab-feature">
+                                            <h5>HARDENING SYSCTL</h5>
+                                            <p>No one can play around our servers, we know our kernels better than ohers. We modify it to give you high level security.</p>
+                                        </div>
+                                    </div>
+                                    <div class="block-grid-item">
+                                        <div class="security-tab-icon">
+                                            <i class="fa fa-umbrella"></i>
+                                        </div>
+                                        <div class="security-tab-feature">
+                                            <h5>SECURITY AUDIT</h5>
+                                            <p>We do security audit on a regular basis to meet the legal requirements and prvide the most of the security possible.</p>
+                                        </div>
+                                    </div>
+                                    <div class="block-grid-item">
+                                        <div class="security-tab-icon">
+                                            <i class="fa fa-life-ring"></i>
+                                        </div>
+                                        <div class="security-tab-feature">
+                                            <h5>VERIFICATION OF LOG FILES</h5>
+                                            <p>We continiously keep our eye on  log files and verify them. We keep limited access to log files so only we can see logs.</p>
+                                        </div>
+                                    </div>
+                                    <div class="block-grid-item">
+                                        <div class="security-tab-icon">
+                                            <i class="fa fa-diamond"></i>
+                                        </div>
+                                        <div class="security-tab-feature">
+                                            <h5>CONFIGURED FIREWALL</h5>
+                                            <p>We have highly secure configured Firewall and very limited rules to access across that.Our Cisco Certified Engineers are always scanning them. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="backups">
+                        <h4>SITE BACKUPS & RESTORE</h4>
+                        <p class="subtitle">Indicator communities positive social change respect sustainability campaign. Citizenry social worker institutions, honesty, opportunity fluctuation. Transform, social analysis, developing, dedicated countries.</p>
+                        <div class="row spacing-25">
+                            <div class="col-md-11 col-sm-12 center-block">
+                                <div class="row no-gutter">
+                                    <div class="backups-restore">
+                                        <div class="col-sm-3 backupcolumn">
+                                            <h5 class="blue">High Performance Backup</h5>
+                                            <p>Necessities momentum raise awareness; experience in the field countries fight against malnutrition empower civic engagement immunize</p>
+                                        </div>
+                                        <div class="col-sm-3 backupcolumn">
+                                            <h5 class="purple">Data Retention Policy</h5>
+                                            <p>Mobilize assessment expert strengthen democracy public institutions; non-partisan honor gender equality voice. Local synthesize, empowerment</p>
+                                        </div>
+                                        <div class="col-sm-3 backupcolumn">
+                                            <h5 class="orange">Central Backup Repository</h5>
+                                            <p>Dignity economic security, freedom international carbon emissions reductions. Climate change, Aga Khan, challenges The Elders sanitation</p>
+                                        </div>
+                                        <div class="col-sm-3 backupcolumn">
+                                            <h5 class="lightblue">Simultaneous Restores</h5>
+                                            <p>Crowdsourcing raise awareness public sector safety, breakthrough insights harness expanding community ownership. Medecins du Monde</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="emails">
+                        <h4>EMAIL HOSTING SERVICES</h4>
+                        <div class="row spacing-25">
+                            <div class="col-md-6 col-sm-12"><img src="{echo CDN}images/mail2.jpg" alt="" /></div>
+                            <div class="col-md-6 col-sm-12">
+                                <p>Necessities momentum raise awareness; experience in the field countries fight against malnutrition empower civic engagement immunize.</p>
+                                <p>Visionary employment voice gender equality development social challenges community meaningful connect. Metrics human being accessibility collaborative shifting landscape social.</p>
+                                <ul>
+                                    <li><i class="fa fa-long-arrow-right"></i> POP/IMAP/Webmail</li>
+                                    <li><i class="fa fa-long-arrow-right"></i> Collaboration tools</li>
+                                    <li><i class="fa fa-long-arrow-right"></i> Anti-spam protection</li>
+                                    <li><i class="fa fa-long-arrow-right"></i> Full mobile support</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="monitoring">
+                        <h4>24x7 MONITORING</h4>
+                        <div class="row spacing-25">
+                            <div class="col-md-6 col-sm-12"><img src="{echo CDN}images/monitoring-tab-image.png" alt="" /></div>
+                            <div class="col-md-6 col-sm-12">
+                                <p>We continiously monitor , analyse the performance of our servers, Optimize o the best level. Our intrusion detection is always up to ring alarm if any kind of attacks ae tried on our servers.</p>
+                                <p>Our specially programmed bots always scan the performance of your application too. Keeping an eye on each trials of attack made on the app and blocking the IPs.</p>
+                                <ul>
+                                    <li><i class="fa fa-long-arrow-right"></i> Crowdsourcing raise</li>
+                                    <li><i class="fa fa-long-arrow-right"></i> Expanding community</li>
+                                    <li><i class="fa fa-long-arrow-right"></i> Insights harness</li>
+                                    <li><i class="fa fa-long-arrow-right"></i> Sector safety</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="cdn">
+                        <h4>STOP TO SLOW LOADING SITES</h4>
+                        <div class="row spacing-25">
+                            <div class="col-md-6 col-sm-12"><img src="{echo CDN}images/cdn-tab-image.png" alt="" /></div>
+                            <div class="col-md-6 col-sm-12">
+                                <p>Developing your website or APP but your server is loading too slow the contents. Then Here we are to provide you one of the fastest CDN to load on your website, APP. A slow loading website is never visted twice. So use our CDN and hold the customers /Visotrs on your website. Reduce  loading time as never before from our servers.</p>
+                                <ul>
+                                    <li><i class="fa fa-long-arrow-right"></i> Fastest CDN for css/js</li>
+                                    <li><i class="fa fa-long-arrow-right"></i> Image Optimization</li>
+                                    <li><i class="fa fa-long-arrow-right"></i> Insight of your loading time and performance</li>
+                                    <li><i class="fa fa-long-arrow-right"></i> CDN consistency.We never change CDN</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END OF TABS -->
+        </div>
+    </div>
+</div>
+<!-- END OF FEATURES -->
+
+<!-- Features Multicolors -->
+<div class="introcolumns">
+    <div class="row">
+        <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="200ms">
+            <div class="circle red"><i class="fa fa-rocket"></i></div>
+            <h4>SSD Cloud Hosting</h4>
+            <p>Amplify Global South countries crowdsourcing poverty, dedicated social innovation sanitation expanding.</p>
+        </div>
+        <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
+            <div class="circle purple"><i class="fa fa-gratipay"></i></div>
+            <h4>24x7 customer support</h4>
+            <p>Honor progress accelerate save the world planned giving, outcomes vulnerable population criteria results.</p>
+        </div>
+        <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div class="circle orange"><i class="fa fa-gg"></i></div>
+            <h4>Best-in-breed scalability</h4>
+            <p>Conflict resolution raise awareness transform the world truth protect nonviolent resistance stakeholders.</p>
+        </div>
+    </div>
+</div>
+<!-- End of Features Multicolors -->
+
+<!-- TESTIMONIALS -->
+<div class="testimonials">
+    <div class="row">
+        <div class="col-sm-12">
+            <h3>WHAT OUR CLIENTS ARE SAYING</h3>
+            <hr class="hr-awesome">
+            <div id="testimonials-carousel" class="owl-carousel">
+                <div class="item">
+                    <div class="testimonial-content">
+                        <img src="{echo CDN}images/testimonial1.jpg" alt="" />
+                        <p>Lijit imeem groupon sifteo handango appjet zillow gsnap whrrl eduvant, dogster qeyno sclipo insala handango scribd jiglu waze zoho, heekya eskobo dropio cuil flickr napster orkut babblely. Twitter waze ngmoco edmodo airbnb hojoki cotweet, yammer klout ning flickr yammer chumby.</p>
+                        <h5>Artur Harte, Chairman of <a href="/">Miyaichi S.A.</a></h5>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimonial-content">
+                        <img src="{echo CDN}images/testimonial2.jpg" alt="" />
+                        <p>Lijit imeem groupon sifteo handango appjet zillow gsnap whrrl eduvant, dogster qeyno sclipo insala handango scribd jiglu waze zoho, heekya eskobo dropio cuil flickr napster orkut babblely. Twitter waze ngmoco edmodo airbnb hojoki cotweet, yammer klout ning flickr yammer chumby. </p>
+                        <h5>Andrea Falcao, CEO of <a href="/">Atsu LTD</a></h5>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimonial-content">
+                        <img src="{echo CDN}images/testimonial3.jpg" alt="" />
+                        <p>Lijit imeem groupon sifteo handango appjet zillow gsnap whrrl eduvant, dogster qeyno sclipo insala handango scribd jiglu waze zoho, heekya eskobo dropio cuil flickr napster orkut babblely. Twitter waze ngmoco edmodo airbnb hojoki cotweet, yammer klout ning flickr yammer chumby. </p>
+                        <h5>Yohan Price, Developer at <a href="/">Alcaraz Inc.</a></h5>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimonial-content">
+                        <img src="{echo CDN}images/testimonial4.jpg" alt="" />
+                        <p>Lijit imeem groupon sifteo handango appjet zillow gsnap whrrl eduvant, dogster qeyno sclipo insala handango scribd jiglu waze zoho, heekya eskobo dropio cuil flickr napster orkut babblely. Twitter waze ngmoco edmodo airbnb hojoki cotweet, yammer klout ning flickr yammer chumby.</p>
+                        <h5>Claudio Fuchs, Chairman of <a href="/">Wood S.A.</a></h5>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimonial-content">
+                        <img src="{echo CDN}images/testimonial5.jpg" alt="" />
+                        <p>Lijit imeem groupon sifteo handango appjet zillow gsnap whrrl eduvant, dogster qeyno sclipo insala handango scribd jiglu waze zoho, heekya eskobo dropio cuil flickr napster orkut babblely. Twitter waze ngmoco edmodo airbnb hojoki cotweet, yammer klout ning flickr yammer chumby. </p>
+                        <h5>Roberta Gerrard, CEO of <a href="/">Unal LTD</a></h5>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimonial-content">
+                        <img src="{echo CDN}images/testimonial6.jpg" alt="" />
+                        <p>Lijit imeem groupon sifteo handango appjet zillow gsnap whrrl eduvant, dogster qeyno sclipo insala handango scribd jiglu waze zoho, heekya eskobo dropio cuil flickr napster orkut babblely. Twitter waze ngmoco edmodo airbnb hojoki cotweet, yammer klout ning flickr yammer chumby. </p>
+                        <h5>Scott Romero, Developer at <a href="/">Amos Inc.</a></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END OF TESTIMONIALS -->
+<!-- NEW PLANS -->
+<div class="newplans">
+    <div class="row">
+        <h3>WE HAVE NEW HOSTING PLANS!</h3>
+        <div class="newplans_box"></div>
+        <div class="spacing-25"></div>
+        <div class="col-md-4 col-sm-12 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms">
+            <div class="newplanscolumn">
+                <h5>Quite Simply</h5>
+                <p>Think tank stakeholders, public sector marginalized communities developing nations invest, resourceful strengthen democracy international implementation poverty donation disrupt planned giving.</p>
+                <p>Social good, Gandhi donors, Jane Addams; catalytic effect social challenges crowdsourcing Millennium.</p>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms">
+            <div class="newplanscolumn">
+                <h5>New Features</h5>
+                <ul>
+                    <li><i class="fa fa-check"></i> 10TB bandwidth</li>
+                    <li><i class="fa fa-check"></i> cPanel now Available</li>
+                    <li><i class="fa fa-check"></i> OpenVPN</li>
+                    <li><i class="fa fa-check"></i> Pure SSD cloud servers</li>
+                    <li><i class="fa fa-check"></i> 8 GB RAM</li>
+                    <li><i class="fa fa-check"></i> Backup Plans</li>
+                    <li><i class="fa fa-check"></i> 24/7/365 Phone and Email Support</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="600ms">
+            <div class="newplanscolumn">
+                <h5>Additions to Every Plan</h5>
+                <div class="progressbars">
+                    <p>EXTRA CPU</p>
+                    <div class="thebar">
+                        <p class="percent">80%</p>
+                        <div class="progress"><span class="meter" style="width:80%"></span></div>
+                    </div>
+                    <p>EXTRA RAM</p>
+                    <div class="thebar">
+                        <p class="percent">70%</p>
+                        <div class="progress alt-1"><span class="meter" style="width:70%"></span></div>
+                    </div>
+                    <p>EXTRA STORAGE</p>
+                    <div class="thebar">
+                        <p class="percent">40%</p>
+                        <div class="progress alt-2"><span class="meter" style="width:40%"></span></div>
+                    </div>
+                    <p>EXTRA BANDWIDTH</p>
+                    <div class="thebar">
+                        <p class="percent">95%</p>
+                        <div class="progress alt-3"><span class="meter" style="width:95%"></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END O NEW PLANS -->
